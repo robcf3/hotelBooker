@@ -3,12 +3,9 @@ import {bookHoliday} from "./index"
 
 describe('Test', () => {
 
-
-
-
     it ('should confirm booking details', () => {
-        expect(bookHoliday(6, [2020, 11, 9], [2020, 11, 11]).to.eql(console.log(`Group size: 6
-        Check in / out: 9 Nov 2020 - 11 Nov 2020`)));
+        expect(bookHoliday(6, [2020, 10, 9], [2020, 10, 11])).to.eql(`Group size: 6
+Check in / out: Mon Nov 09 2020 - Wed Nov 11 2020`);
     });
 
 

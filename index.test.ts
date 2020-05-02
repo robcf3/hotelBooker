@@ -1,6 +1,9 @@
 import {expect} from "chai";
+import {bookHoliday} from "./index"
 
 describe('Test', () => {
+
+
 
 
     it ('should confirm booking details', () => {
